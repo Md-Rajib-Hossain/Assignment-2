@@ -190,13 +190,14 @@
 article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
     gap: 24px;
 
 }
 
 /* article start */
 article>div {
-    height: 362px;
+    height: auto;
 
 
 }
