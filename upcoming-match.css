@@ -221,9 +221,9 @@ article {
 
 .image-container {
     display: flex;
-    width: 252px;
+    width: 100%;
     height: 56.18px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .image-container>img:hover {
@@ -316,7 +316,7 @@ hr {
 .other-info>h6>a {
     text-decoration: none;
     color: var(--shadow-black);
-    padding: 3px;
+    padding: 3px
 }
 
 
