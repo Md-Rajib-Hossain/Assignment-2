@@ -304,7 +304,7 @@ hr {
 }
 
 .other-info {
-    height: 50%;
+    height: 30%;
     color: var(--shadow-black);
     display: flex;
     justify-content: center;
@@ -325,6 +325,60 @@ hr {
     color: var(--black-color);
     border-radius: 2px;
     padding: 3px;
+
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.social-media-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.social-media-container > div >a {
+
+    font-size: 30px;
+    margin: 20px;
+    
+
+}
+
+.fa-facebook{
+    color: #1877f2;
+    background-color: var(--white-color);
+    border-radius: 5px;
+  
+}
+.fa-facebook:hover{
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.771), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.fa-pinterest{
+    color: #e60023;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    
+}
+.fa-pinterest:hover{
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.771), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+
+}
+
+.fa-reddit{
+        color: #FF4301;
+    background-color: var(--white-color);
+    border-radius: 5px;
+
+}
+.fa-reddit:hover{
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.771), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 
 }
 
